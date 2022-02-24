@@ -2,12 +2,12 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const MyToken = await hre.ethers.getContractFactory("MyToken");
-  const myToken = await MyToken.deploy();
+  const Sashay = await hre.ethers.getContractFactory("Sashay");
+  const sashay = await Sashay.deploy();
 
-  await myToken.deployed();
+  await sashay.deployed();
 
-  console.log("myToken deployed to:", myToken.address);
+  console.log("sashay deployed to:", sashay.address);
 }
 
 main()

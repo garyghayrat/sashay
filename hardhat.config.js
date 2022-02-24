@@ -21,10 +21,14 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   solidity: "0.8.4",
   networks: {
-    rinkeby: {
-      url: RINKEBY_URL,
-      accounts: [PRIVATE_KEY]
+    hardhat: {
+      gasPrice: 470000000000,
+      chainId: 43112,
     },
+    // rinkeby: {
+    //   url: RINKEBY_URL,
+    //   accounts: [PRIVATE_KEY]
+    // },
     mumbai: {
       url: POLYGON_URL,
       accounts: [PRIVATE_KEY],

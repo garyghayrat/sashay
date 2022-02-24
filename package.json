@@ -20,5 +20,8 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.5.0",
     "dotenv": "^16.0.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
