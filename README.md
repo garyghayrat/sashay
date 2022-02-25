@@ -1,3 +1,17 @@
+# Contract Deployment
+
+    npx hardhat run scripts/deploy.js
+
+    npx hardhat run scripts/deploy.js --network mumbai
+
+    npx hardhat run scripts/deploy.js --network rinkeby
+
+# TO DO:
+
+1) Chainlink PriceConsumer deployment
+
+
+
 # Basic Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.

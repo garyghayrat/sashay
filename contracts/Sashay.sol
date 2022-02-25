@@ -15,3 +15,4 @@ contract Sashay is ERC20, Ownable {
 }
 
 //Mumbai address 2-24-22 deployment: 0x8DB5Aa9964eB595148911e5dD84D3C8a4D5A19f5
+//Rinkeby address 2-24-22 deployment: 0x3680a3aefe43217850905Da62Df96AB888367d0b

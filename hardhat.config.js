@@ -25,10 +25,10 @@ module.exports = {
       gasPrice: 470000000000,
       chainId: 43112,
     },
-    // rinkeby: {
-    //   url: RINKEBY_URL,
-    //   accounts: [PRIVATE_KEY]
-    // },
+    rinkeby: {
+      url: RINKEBY_URL,
+      accounts: [PRIVATE_KEY]
+    },
     mumbai: {
       url: POLYGON_URL,
       accounts: [PRIVATE_KEY],
